@@ -79,3 +79,5 @@ app.post('/short',generateSlug, async (req, res)=>{
 // })
 
 
+
+module.exports = app;
