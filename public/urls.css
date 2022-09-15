@@ -1,0 +1,71 @@
+/* @import "bootstrap.min.css"; */
+
+#features.h1{font-size: 100px; color: hsl(260, 8%, 14%);}
+h2{font-size: 80px; color: hsl(260, 8%, 14%);}
+
+p{font-size: 20px;}
+.btn{color: hsl(180, 66%, 49%); }
+
+input[type=link]{
+  padding: 20px;
+  border: 5px solid red;
+  border-radius: 12px;
+}
+input::placeholder{
+  color: red;
+}
+#shorten{
+  height: 60px;
+  
+}
+
+#advancements{padding-top: 50px; text-align: center;}
+
+.linkGet{
+ font-size: 40px;
+}
+
+#link1{
+  background-color: white;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+#link2{
+  background-color: white;
+  padding: 5px;
+  border-radius: 8px;
+}
+#link3{
+  background-color: white;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.allLink{
+  background-color: gray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+/* body{font-family: } */
+/* header{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.navbar {
+    padding:0 ;
+  }
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  .navbar li {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+  } */
