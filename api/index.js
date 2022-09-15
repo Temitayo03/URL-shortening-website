@@ -1,5 +1,5 @@
 const express = require('express');
-const generateSlug = require('./middlewares/generateSlug')
+const generateSlug = require('../middlewares/generateSlug')
 const path = require('path');
 
 
