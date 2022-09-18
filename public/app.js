@@ -10,9 +10,13 @@ function createLinks(){
     data.forEach((item)=>{
         let template = `<div class="allLink">
         <div class="container" id="link1">
+     <span>
          <h2>${item.originalURL}</h2>
+     </span>
+     <span>
          <h2>${item.shortURL}</h2>
-         <button type="button" class="btn btn-lg btn-primary copy">copy</button>
+         <button type="button" class="btn btn-lg btn-primary">copy</button>
+     </span>
         </div>
         </div>`
         multiLink.innerHTML += template;

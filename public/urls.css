@@ -29,17 +29,26 @@ input::placeholder{
   background-color: white;
   padding: 5px;
   border-radius: 8px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
 
 #link2{
   background-color: white;
   padding: 5px;
   border-radius: 8px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
 #link3{
   background-color: white;
   padding: 5px;
   border-radius: 8px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
 }
 
 .allLink{
