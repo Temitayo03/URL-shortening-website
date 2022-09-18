@@ -11,10 +11,10 @@ function createLinks(){
         let template = `<div class="allLink">
         <div class="container" id="link1">
      <span>
-         <h2>${item.originalURL}</h2>
+         <h3>${item.originalURL}</h3>
      </span>
      <span>
-         <h2>${item.shortURL}</h2>
+         <h3>${item.shortURL}</h3>
          <button type="button" class="btn btn-lg btn-primary">copy</button>
      </span>
         </div>
