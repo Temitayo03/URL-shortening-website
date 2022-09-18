@@ -8,15 +8,13 @@ p{font-size: 20px;}
 
 li {
   float: left;
-}
-
-li a {
   display: block;
-  color: #666;
+  color: hsl(260, 8%, 14%);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
+
 
 input[type=link]{
   padding: 20px;
