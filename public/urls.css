@@ -1,6 +1,6 @@
 /* @import "bootstrap.min.css"; */
 
-#features.h1{font-size: 200px; color: hsl(260, 8%, 14%);}
+h1{font-size: 200px; color: hsl(260, 8%, 14%);}
 h2{font-size: 80px; color: hsl(260, 8%, 14%);}
 
 p{font-size: 20px;}
@@ -75,9 +75,9 @@ input::placeholder{
   padding-bottom: 30px;
 }
 
-#boost.h2{
+/* h2{
   color: white;
-}
+} */
 
 /* body{font-family: } */
 /* header{
