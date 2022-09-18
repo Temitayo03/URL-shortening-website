@@ -13,7 +13,7 @@ function createLinks(){
      <span>
          <h3>${item.originalURL}</h3>
      </span>
-     <span>
+     <span id="span1">
          <h3>${item.shortURL}</h3>
          <button type="button" class="btn btn-lg btn-primary">copy</button>
      </span>
