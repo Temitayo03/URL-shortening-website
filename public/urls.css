@@ -51,6 +51,24 @@ input::placeholder{
   justify-content: space-between;
 }
 
+#span1{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#span2{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#span3{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
 .allLink{
   background-color: gray;
   padding-top: 30px;
