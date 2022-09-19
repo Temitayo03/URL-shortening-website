@@ -27,9 +27,13 @@
 
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#features">Features</a></li>
-                    <li><a class="nav-link scrollto active" href="#pricing">Pricing</a></li>
-                    <li><a class="nav-link scrollto active" href="#resources">Resources</a></li>
+                    <li class="scrollto active" href="#features">Features</li>
+                    <li class="scrollto active" href="#pricing">Pricing</li>
+                    <li class="scrollto active" href="#resources">Resources</li>
+                </ul>
+                <ul style="float: right;">
+                    <li class="scrollto active" href="#login">Login</li>
+                    <li class="scrollto active" href="#signup"><button class="btn btn-lg btn-rounded-pill btn-primary ">Sign up</button></li>
                 </ul>
             </nav>
 
@@ -51,14 +55,15 @@
         <!-- </div> -->
     </div>
      
-    <div class="container" style="background-image: url('/images/bg-boost-desktop.svg'); background-size: cover;  background-color: hsl(257, 27%, 26%); padding: 50px;">
+    <div class="container" style="background-image: url('/images/bg-boost-desktop.svg'); background-size: cover;  background-color: hsl(257, 27%, 26%); padding: 50px; border-radius: 16px;">
         <form method="post" action="/short" id="link-form">
         <div class="form-group row">
             <input type="link" class="form-control-lg col-md-8" id="linkShorten" placeholder="Shorten a link here" name="linkShorten"><br>
             <label for="linkShorten">Please add a link</label>
+
+            <button type="submit" class="btn btn-primary btn-lg" id="shorten" style="float: right;">Shorten it!</button>
             
         </div>
-            <button type="submit" class="btn btn-primary btn-lg" id="shorten">Shorten it!</button>
         </form>
     </div>
     <br>
